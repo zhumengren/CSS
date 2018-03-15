@@ -60,6 +60,7 @@ function stoprnum(){
 	window.clearInterval(id1);
 	//alert("box10");
 	toyellow();
+	//cstyle();
 }
 
 //延时执行
@@ -95,8 +96,4 @@ function tohint(){
 document.getElementById("button1").style.backgroundColor="#FFFFFF";	
 document.getElementById("button2").style.backgroundColor="#FFFFFF";
 }
-
-
-
-
 
