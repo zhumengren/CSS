@@ -1,0 +1,33 @@
+		
+			body ,html{font-family: verdana;width: 100%;height:99% ;font-size: 14px;margin: -4px;background: #33CCCC;overflow-y: hidden;overflow-x: hidden;}
+			.container{margin: 0 auto;width: 100%;height:100% ;background-color: inherit;padding: 15px;}
+			.backon{height: 10%;background-color: inherit;margin: 0 ;}
+			.grapelogo{  line-height: 20%;text-align: center; height: 20%;background-color: inherit;margin: 0 ;}
+			.maintext{height:30% ;padding: 0 4vw 0 4vw;margin: 0;color: white;font-size: 3vw;text-align: left;background-color: inherit;letter-spacing:3vw;}
+			.sideleft{float: left;width: 50%;height: 13%;background-color: inherit;line-height: 13%;text-align: center;}
+			.sideright{float: right ;width: 50%;height: 13%;background-color: inherit;line-height: 13%;text-align: center;}
+			.textnumber{float: left ;width: 50%;height: 28%;background-color: inherit;line-height: 28%;text-align: center;color: white;font-size: 3vw;top: 5px;}
+			.textname{float: right ;width: 50%;height: 28%;background-color: inherit;line-height: 28%;text-align: center;color: white;font-size: 3vw;top: 5px;}
+			.textstyle{margin:0 0 0 0 ;padding: 0 0 0 0 ;}
+			
+			
+			.divimg1 img{width:100px; height:100px;}			
+			.divimg2 img{width:250px; height:140px;}
+			.divimg3 img{width:160px; height:168px;}
+			
+			@media screen and (max-width: 768px) {
+			.divimg1 img{width:40px; height:40px;}
+			.divimg2 img{width:95px; height:45px;}
+			.divimg3 img{width:60px; height:65px;}
+           }
+			@media screen and (min-width: 768px) and (max-width: 768px){
+			.divimg1 img{width:70px; height:70px;}
+			.divimg2 img{width:155px; height:90px;}
+			.divimg3 img{width:80px; height:85px;}
+			}
+			@media screen and (min-width: 769px) and (max-width: 1024px){
+			.divimg1 img{width:100px; height:100px;}
+			.divimg2 img{width:270px; height:160px;}
+			.divimg3 img{width:160px; height:168px;}
+			}
+		
