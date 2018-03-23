@@ -1,0 +1,48 @@
+<!--版权所有，翻版或是转载麻烦通知一声---mrlong7@163.com*/-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>登陆</title>
+		<link href="css/log_in.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<div class="container">
+			<div class="header "><!--这里需要使用header撑开页面的高度，保持布局不被绝对定位给覆盖掉-->
+				<div class="header hdiv "><!-- 这里hdiv使用了绝对定位，为下面三个元素的绝对定位提供拥有position先祖元素，而header就为三个元素的定位提供了一个可以让绝对定位覆盖的版面-->
+					<p class="register">注册</p><!--这里使用了绝对定位，这里需要配备一个先祖辈的拥有position属性的元素用来定位-->
+					<p class="loginpt">登陆</p>
+					<p class="close">关闭</p>
+				</div>
+			</div>
+			<div class="inputmain"><!--作用是撑开页面-->
+				<div class="inputmain inputtop "><!--作用是在inputmain里面为第一个input撑开页面,整个盒子包围使用定位，至少需要三层-->
+					<div class="inputtop inputdiv "><!--给子代一个绝对定位的坐标-->
+					<img src="img/phone.png" class="phonediv" /><!--这里使用绝对定位，已经脱离了文本流，需要一个父辈的绝对定位来给定坐标-->					
+						<form action="">
+							<input type="text" name="phoneNumber" class="phoneNub"/>
+						</form>
+					</div>
+					
+					<div class="inputbuttom inputdiv">
+					<img src="img/lock.png" class="phonediv" />
+						<form action="" method="" id="">
+						<input type="text" name="password" class="phoneNub"/>
+						</form>
+					</div>
+				</div>
+			</div>
+			
+			<!--<div class="occupation1"><p>占位1</p></div>-->
+			<div class="loginlgmain">
+			<button type="" form="" value="登陆" class=" loginlg loginlgdiv">
+				
+				<p class="login">登陆</p>
+			</button>
+			</div>
+			
+			<div class="forgetpsw "><p class="forgetpswdiv"><u>忘记密码</u></p></div>
+			
+		</div>
+	</body>
+</html>

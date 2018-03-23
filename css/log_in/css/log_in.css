@@ -1,0 +1,60 @@
+
+/*版权所有，翻版或是转载麻烦通知一声---mrlong7@163.com*/
+/*布局*/
+body ,html{font-family: verdana;width: 100%;height:100% ;font-size: 50px;margin: 0px;padding:0px;background:#E8E8E8 ;overflow-y: hidden;overflow-x: hidden;}
+.container{margin: 0 auto;width: 100%;height:100% ;background-color: inherit;padding: 0px;margin: 0px;}
+.header{height:7%;width:100%;}
+.inputmain{height:17%;width: 100%;}
+.inputtop{height: 7.5%;width: 100%;top: 8%;}/* 7.5%是以这个页面的高度为基准，top是以页面的顶部为基准*/
+.inputbuttom{height: 7.5%;width: 100%;top:16.5%}
+
+.loginlgmain{height: 12%;width: 100%;margin: 0;padding: 0;}
+.loginlg{height: 10%;width: 100%;top: 26%;margin: 0;padding: 0;}
+.forgetpsw{height: 4.8%;width: 100%;position: absolute;}
+
+
+/*字体类样式*/
+p{font-size: inherit;padding: inherit;margin: inherit;}
+.loginpt{width: 105px;height: 55px;position: absolute;transform: translate(-50%,0%);left: 50%;top: 25%;font-size: 45px;font-weight: 900;letter-spacing:4px;}
+.register{width: 105px;height: 55px;position: absolute;transform: translate(0%,0%);left: 3%;top: 30%;font-size: 40px;font-weight: 500;letter-spacing:4px;}
+.close{width: 105px;height: 55px;position: absolute;transform: translate(0%,0%);right: 3%;top: 30%;font-size: 40px;font-weight: 500;letter-spacing:4px;}
+.login{width: 250px;height: 65px;position: absolute;transform: translate(-40%,0%);left: 50%;top: 25%;font-size: 65px;font-weight: 900;letter-spacing:60px;}
+
+
+/*盒子*/
+.hdiv{background-color: #33CCCC;font-size:35px ;color: white;position: absolute;}
+.inputdiv{background-color: white;font-size:35px ;color: red;position: absolute;}
+.loginlgdiv{background-color: #33CCCC;font-size:35px ;color: white;position: absolute;}
+.phonediv{background-color: white;width:40px ;height: 60px;position: absolute;left: 30px;top: 25px;}
+.phoneNub{background-color: white;width: 800px;height: 70px;position: absolute;left: 130px;top: 20px;border-top-style:hidden ;border-bottom-style: hidden;border-left: solid #c4c4ad;border-right-style: hidden ;}
+.forgetpswdiv{background-color: inherit;color:#54d6d6;position: absolute;width: 220px;height: 70px;right: 30px;top: 15px;}
+
+/*媒体查询，主要解决*/
+			@media screen and (min-width: 1024px) {
+			.header{height:13%;width:100%;}
+			.register{width: 105px;height: 55px;position: absolute;transform: translate(0%,0%);left: 3%;top: 25%;font-size: 40px;font-weight: 500;letter-spacing:4px;}
+			.loginpt{width: 105px;height: 55px;position: absolute;transform: translate(-50%,0%);left: 50%;top: 20%;font-size: 45px;font-weight: 900;letter-spacing:4px;}
+			.close{width: 105px;height: 55px;position: absolute;transform: translate(0%,0%);right: 3%;top: 25%;font-size: 40px;font-weight: 500;letter-spacing:4px;}
+			
+			.inputtop{height: 10%;width: 100%;top: 15%;}
+			.inputbuttom{height: 10%;width: 100%;top:27%}
+			.loginlg{height: 10%;width: 100%;top: 39%;margin: 0;padding: 0;}
+			.login{width: 250px;height: 80px;position: absolute;transform: translate(-40%,0%);left: 50%;top: 2%;font-size: 65px;font-weight: 900;letter-spacing:60px;}
+			.forgetpswdiv{background-color: inherit;color:#54d6d6;position: absolute;width: 220px;height: 70px;right: 30px;top: 95px;}
+
+
+           }
+ /*          @media screen and (min-width: 768px) and (max-width: 768px){
+			.divimg1 img{width:70px; height:70px;}
+			.divimg2 img{width:155px; height:90px;}
+			.divimg3 img{width:80px; height:85px;}
+			}
+			@media screen and (min-width: 769px) and (max-width: 1024px){
+			.divimg1 img{width:100px; height:100px;}
+			.divimg2 img{width:270px; height:160px;}
+			.divimg3 img{width:160px; height:168px;}
+			}
+*/
+
+
+
