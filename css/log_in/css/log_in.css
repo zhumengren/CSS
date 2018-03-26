@@ -26,10 +26,17 @@ p{font-size: inherit;padding: inherit;margin: inherit;}
 .inputdiv{background-color: white;font-size:35px ;color: red;position: absolute;}
 .loginlgdiv{background-color: #33CCCC;font-size:35px ;color: white;position: absolute;}
 .phonediv{background-color: white;width:40px ;height: 60px;position: absolute;left: 30px;top: 25px;}
-.phoneNub{background-color: white;width: 800px;height: 62px;font-size: 50px;position: absolute;left: 130px;top: 20px;border-top-style:hidden ;border-bottom-style: hidden;border-left: solid #c4c4ad;border-right-style: hidden ;}
+.phoneNub{background-color: white;width: 800px;height: 62px;font-size: 55px;position: absolute;left: 130px;top: 20px;border-top-style:hidden ;border-bottom-style: hidden;border-left: solid #c4c4ad;border-right-style: hidden ;}
 .forgetpswdiv{background-color: inherit;color:#54d6d6;position: absolute;width: 220px;height: 70px;right: 30px;top: 15px;}
 
 /*媒体查询，主要解决*/
+/*			@media screen and (max-width: 320px) {
+			.phoneNub{background-color: white;width: 800px;height: 62px;font-size: 50px;position: absolute;left: 130px;top: 20px;border-top-style:hidden ;border-bottom-style: hidden;border-left: solid #c4c4ad;border-right-style: hidden ;}
+           }
+			@media screen and (min-width: 320px) and (max-width: 1024px){
+			.phoneNub{background-color: white;width: 800px;height: 30px;font-size: 25px;position: absolute;left: 130px;top: 20px;border-top-style:hidden ;border-bottom-style: hidden;border-left: solid #c4c4ad;border-right-style: hidden ;}
+			}
+*/
 			@media screen and (min-width: 1024px) {
 			.header{height:13%;width:100%;}
 			.register{width: 105px;height: 55px;position: absolute;transform: translate(0%,0%);left: 3%;top: 25%;font-size: 40px;font-weight: 500;letter-spacing:4px;}
