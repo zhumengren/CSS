@@ -47,16 +47,17 @@ do{
 	
 }
 
-
+var id1;
 //点击启动闪
 function onclick2(){
 		  
-		 
-		 	id1=window.setInterval("rnum()",1000);			 
+		
+		id1=window.setInterval("rnum()",1000);			 
 }
 
 //点击停止闪
 function stoprnum(){
+	
 	window.clearInterval(id1);
 	//alert("box10");
 	toyellow();
