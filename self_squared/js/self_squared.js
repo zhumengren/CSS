@@ -4,17 +4,24 @@
 //var d=Math.round(10*(Math.random()));
 //alert(d);
 	
+
+	
+
+	
 //执行变色
 function rnum(){
 	
+
 	
 //随机获取三个格子的id
-var a,b,c;
+var a=b=c=1;
+
 do{ a=Math.round(10*(Math.random()));
 	b=Math.round(10*(Math.random()));
 	c=Math.round(10*(Math.random()));
    }
-	while((a==b)||(b==c)||(a==c)||(a>9)||(b>9)||(c>9));
+	while((a==b)||(b==c)||(a==c)||(a>9)||(b>9)||(c>9)||(c==0)||(b==0)||(a==0));
+	
 var j=("box"+a).toString();
 var k=("box"+b).toString();
 var l=("box"+c).toString();
@@ -24,7 +31,8 @@ var l=("box"+c).toString();
 
 
 //alert(getRandomColor());
-var a1,b1,c1;
+//获取三种颜色
+var a1=b1=c1=0;
 do{
 	a1=getRandomColor();
 	b1=getRandomColor();
@@ -41,9 +49,14 @@ do{
 	document.getElementById(u).style.backgroundColor="#F3B613" ;
 }*/
 	//for(;;)
+
 	document.getElementById(j).style.backgroundColor=a1 ;
 	document.getElementById(k).style.backgroundColor=b1 ;
-	document.getElementById(l).style.backgroundColor=c1 ;
+	document.getElementById(l).style.backgroundColor=c1 ;	
+
+	
+	
+
 	
 }
 
