@@ -1,3 +1,5 @@
+/*版权所有，转载或是使用请通知一声*/
+
 html{display:block; background-color: #ebebed;font-size: 50px;}
 body,html{width: 100%;height: auto;margin: 0;padding: 0;background-color: #EBEBED;font-family: "microsoft yahei";}
 .app{max-width:800px;margin: 0 auto;}
@@ -17,7 +19,7 @@ body{cursor: default;font-size: .26rem;}
 .ipt-act{width: 100%;height: 100%;padding: 0;border: none ;}
 .s-input{position: absolute;height: auto;width: auto;top: .31rem;left: .2rem;}
 .pho-size{height: .4rem;width: .3rem;}
-.u-line{position: absolute;display: block;overflow: hidden;width: 1px;padding: .2rem 0 .2rem 0;background-color: #FFF;top: .31rem;left: .75rem;}
+.u-line{position: absolute;display: block;overflow: hidden;width: 1px;padding: .2rem 0 .2rem 0;background-color: #d6bfbf;top: .31rem;left: .75rem;}
 .line{width: 0;display: block;border-left: 1px solid #d0d0d0;}
 .btn-sty button{width: 100%;height:1.2rem;background-color: #33CCCC;font-size: .5rem;border: none;letter-spacing:.3rem;text-align: center;text-indent: .3rem;}
 .fgt-psw{border: none;margin: 0 .32rem 0 .32rem;font-size: .3rem;}
