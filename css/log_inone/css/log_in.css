@@ -1,0 +1,26 @@
+html{display:block; background-color: #ebebed;font-size: 50px;}
+body,html{width: 100%;height: auto;margin: 0;padding: 0;background-color: #EBEBED;font-family: "microsoft yahei";}
+.app{max-width:800px;margin: 0 auto;}
+form,div,body,h1,h2,h3,h4,h5,hr,html,input,li,p,table,td,th,ul{margin: 0;padding: 0;outline: none;border: none;}
+div{display: block;}
+body{cursor: default;font-size: .26rem;}
+.pt-rl{position: relative;display: block;}
+.fix-p{display: block;background-color: #33CCCC;}
+.pd-tb{padding-bottom: .2rem;padding-top: .2rem;text-align:center;padding-left: .4rem;padding-right: .4rem;}
+.p-log{font-size: .36rem;height: .40rem ;width: auto;}
+.f-right{float: right;}
+.f-left{float: left;}
+.f-size{font-size: .30rem;}
+.ipt-sty{background-color: #fff;border-top: 1px solid #d0d0d0;margin:.2rem 0 .2rem 0;}
+.u-input{width: auto;height: auto;text-align: left;}
+.ipt-wrap{padding: 0 .8rem 0 .9rem;font-size: .28rem;height: 1rem;position: relative;}
+.ipt-act{width: 100%;height: 100%;padding: 0;border: none ;}
+.s-input{position: absolute;height: auto;width: auto;top: .31rem;left: .2rem;}
+.pho-size{height: .4rem;width: .3rem;}
+.u-line{position: absolute;display: block;overflow: hidden;width: 1px;padding: .2rem 0 .2rem 0;background-color: #FFF;top: .31rem;left: .75rem;}
+.line{width: 0;display: block;border-left: 1px solid #d0d0d0;}
+.btn-sty button{width: 100%;height:1.2rem;background-color: #33CCCC;font-size: .5rem;border: none;letter-spacing:.3rem;text-align: center;text-indent: .3rem;}
+.fgt-psw{border: none;margin: 0 .32rem 0 .32rem;font-size: .3rem;}
+
+
+
