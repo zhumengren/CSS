@@ -1,0 +1,92 @@
+
+
+html{display:block; background-color: #ebebed;font-size: 50px;}
+body,html{width: 100%;height: auto;margin: 0;padding: 0;background-color: #EBEBED;font-family: "microsoft yahei";}
+.app{overflow-y: auto;}
+div{display: block;}
+form,div,body,h1,h2,h3,h4,h5,hr,html,input,li,p,table,td,th,ul{margin: 0;padding: 0;outline: none;border: none;}
+div{display: block;}
+body{cursor: default;font-size: .26rem;}
+.pt-rl{position: relative;display: block;}
+.pt-abt{position: absolute;display: block;}
+.pt-fx{position: fixed;display: block;}
+.header{top: 0;z-index: 300;width: 100% !important;}
+.footer{bottom: 0;z-index: 300;width: 100% !important;height: auto;}
+.pd-tb{padding: .2rem .2rem .2rem .2rem;text-align:center;}
+.fix-p{display: block;background-color: #33CCCC;color: white;}
+.p-log{font-size: .36rem;height: .40rem ;width: auto;}
+.f-right{float: right;}
+.f-left{float: left;}
+.f-size{font-size: .30rem;}
+.f-to{font-size: .25rem;color: #bebebe;}
+.fix-bt{display: block;width: 50%;height: auto;margin:auto;text-align:center;padding: 0 ;}
+.bt-sty{display: block;margin:.2rem .2rem .2rem .2rem;padding:.2rem .2rem .2rem .2rem ;border: 2px solid #33CCCC;border-radius: 5px;}
+.bl-sty{background-color: inherit;color: #33CCCC;}
+.br-sty{background-color: #33CCCC;color: white;}
+.main-pt{margin: 0 auto;padding: 0;display: block;height: auto;width: 100%;border-bottom: 1px solid #d6c7c7;}/*这里的width：100% 有时候可以用来确保图片铺满*/
+.pt-sty{height: auto;width: 100%;}
+.pt-sta{position: static;}
+.ccl-sty{height: 1.3rem;width: 1.3rem;}
+.pt-rad{height: 1.7rem;width: 1.7rem;}
+.ccl-pt{height: auto;width: auto;bottom: .4rem;left: .4rem;}
+.lct-pt{height: auto;width: auto;bottom: .7rem;left: 2.3rem;}
+.lct-sz{height: .25rem;width: .2rem;}
+.box{display: block;height: 2.9rem;width: 100%;}
+.ovr-hed{overflow: hidden;}
+.bod-rad{border-radius: 50%;}
+.vcl-md{vertical-align:middle;font-size: .26rem;}
+.skill-o{margin:.2rem .2rem .2rem .2rem;top: 0;left: .2rem;width: auto;height: auto;display: block;}
+.skill-t{height: .8rem;}
+.icon{width: .1rem;height: .34rem;background:#33CCCC ;left: .15rem;top: .25rem;}
+.line-n{width:100%;display: block;border-left: 1px solid #d0d0d0;}
+.as-home{margin:.2rem 0rem .2rem .45rem;top: 0;left: 0rem;width: auto;height: auto;display: block;}
+.as-food{margin:.2rem 0rem .2rem 0rem;top: 0;left: 1.9rem;width: auto;height: auto;display: block;}
+.star-sty1{height: .25rem;width: .25rem;left: .2rem;display: block;margin:.27rem 0rem .27rem 0rem;}
+.star-sty2{height: .25rem;width: .25rem;left: 1.65rem;display: block;margin:.27rem 0rem .27rem 0rem;}
+.u-line{height: 1px;width: auto;overflow: hidden;padding-left: .3rem; background-color: inherit;display: block;}
+.line{display: block; height: 0; border-bottom: 1px solid #d0d0d0;}
+.dsp-lin{display:inline;width: 1rem;}
+.linet{width: 0;display: block;border-left: 1px solid #d0d0d0;}
+.u-linet{position: absolute;display: block;overflow: hidden;width: 1px;padding: .2rem 0 .2rem 0;background-color:  #d0d0d0;top: .2rem;left: 1.6rem;}
+.u-lines{height: .4rem;width: 1px;overflow: hidden; background-color: #d0d0d0;display: block;margin-right: .32rem;}
+.dsp-flex{display: flex;flex-direction: row;flex-wrap: nowrap;}
+.box-flex{align-items: center;}
+.wdt-t{width: auto;height: auto;margin-right: .15rem;}
+.wdt-s{width: auto;height: auto;}
+.hed-t{height: 2rem;width: auto;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
