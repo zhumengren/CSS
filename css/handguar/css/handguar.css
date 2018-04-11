@@ -2,7 +2,8 @@
 
 html{display:block; background-color: #ebebed;font-size: 50px;}
 body,html{width: 100%;height: auto;margin: 0;padding: 0;background-color: #EBEBED;font-family: "microsoft yahei";}
-.app{overflow-y: auto;}
+.app{overflow-y: auto;max-width:800px;margin: 0 auto;}
+.max-h{max-width:800px;}
 div{display: block;}
 form,div,body,h1,h2,h3,h4,h5,hr,html,input,li,p,table,td,th,ul{margin: 0;padding: 0;outline: none;border: none;}
 div{display: block;}
