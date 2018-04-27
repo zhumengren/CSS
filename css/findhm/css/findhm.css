@@ -1,0 +1,65 @@
+
+
+html{display:block; background-color: #ebebed;font-size: 50px;}
+body,html{width: 100%;height: auto;margin: 0;padding: 0;background-color: #EBEBED;font-family: "microsoft yahei";}
+div{display: block;font-size: .26rem;}
+form,div,body,h1,h2,h3,h4,h5,hr,html,input,li,p,table,td,th,ul{margin: 0;padding: 0;outline: none;border: none;}
+div,a,ul{display: block;}
+body{cursor: default;font-size: .26rem;}
+header {width: 100%;display: block;height: 1rem;background-color: #44c8d6;border-bottom: 1px solid #44c8d6;
+		position: relative;z-index: 20;top: 0;}
+footer {width: 100%;display: block;height: 1rem;background-color: #f3f3f3;border-top: 1px solid #f3f3f3;
+		position: relative;z-index: 20;}
+div>ul{padding: 0;margin:0 0 0 0;border-bottom:1px solid #f3ecec ;}
+		
+.clear-f{clear:both;height:1px;width:100%; overflow:hidden; margin-top:-1px;}	
+.ovr-h{overflow:hidden ;}	
+.li-css ul{list-style:none;}/*去除圆点*/	
+.btn-css{float:left;width:33.3%;line-height:30px;} 
+.btn-css1{background-color: #F7F7F7;display:block; text-align:center; height:.9rem;padding:0;line-height: .9rem; border-radius:0;font-size: .3rem;color: #b0a6a6 !important;}/*颜色的样式没办法覆盖，只能提高其优先级*/
+.pt-rl{position: relative;display: block;}
+.pt-abt{position: absolute;display: block;}
+.app{max-width:800px;margin: 0 auto;}
+.max-h{max-width:800px;}
+.head-wrap {position: fixed !important; width: 100%;top: 0;z-index: 1000;}
+.footer-wrap{position: fixed !important;width: 100%;bottom: 0;z-index: 1000;}
+.f-right{float: right;}
+.f-left{float: left;}
+.hed-load{height: .78rem;width: .78rem;display: block;background: url(../img/spirit.png);
+		 background-repeat: no-repeat;margin-top: .0rem;margin-right: .0rem;}
+.food-load{height: .90rem;width: .88rem;margin: 0 0 0 0rem;padding: 0;border: 0;display: block;background:url(../img/spirit.png) ; background-repeat: no-repeat;}		 
+.hed-loado{height: .78rem;width: .78rem;display: block;
+		 background-repeat: no-repeat;margin-top: .0rem;margin-right: .0rem;}		 
+.icon4{background-position: 0 -63px;background-size:66%;}
+.channel{height: .9rem;width: 100%;background: rgba(255,255,255,1);box-sizing: border-box;
+		border: 1px solid #ddd;border-left: 0;border-right: 0;position: relative;top: 1rem;}
+.dsp-flex{display: flex;flex-direction: row;flex-wrap: nowrap;}
+.box-flex{justify-content:  space-between;}
+.flex-n{flex-wrap: nowrap;}
+.vcl-md{vertical-align:middle;font-size: .35rem ;padding: .10rem .15rem;border-radius: 0.15rem;}
+.btn-sty{display: block;background-color: #5cadc0;border-radius: 0.15rem;margin-top:.12rem;}
+.down-put{width: 33.3% ;min-width: 33.3%!important;padding: 0.1rem 0;height: auto;font-size: .3rem; color: #BEE5EB;background-color:#f8f9fa;border-radius:0;text-align:center;-index: 1000;float: left;border: 0;}
+.main-pt{height: .58rem;width: .58rem;margin: 0 0 0 .1rem;padding: 0;border: 0;display: block;background:url(../img/spirit.png) ; background-repeat: no-repeat;}
+.icon2{background-position: 0 -30px;background-size:120%;}
+.color-w{background-color: #FFFFFF;}
+.dsp-il{display: inline-block;}
+.font-sizeo{font-size: .3rem;color: #ADB5BD !important;height: auto;width: auto;margin: 0 ;line-height:29px;}/*设置行高为父元素的高度*/
+.icon3{background-position: 0 -68px;background-size:120%;}
+.font-col{color:#040505 !important;margin: 0 0 0 .64rem; display: block;}
+.font-colt{color: #fe172d !important;}
+.icon7{background-position: 0 -203.6px;background-size:120%;}
+.text-ovr{white-space:nowrap !important;overflow: hidden;text-overflow:ellipsis !important;}
+.flex-wp{flex-wrap: nowrap;}
+.text-flo{text-overflow:ellipsis !important;}
+.ovr-y{overflow-y: auto !important;}
+.div-null{height: 95px;width: auto;}
+.div-mag{padding: 0;margin:0 1.3rem ;border: 0;}
+.icon1{background-position: 4.5px 5px;background-size:75%;height: .60rem ! important;width: .80rem ! important;}
+.icon6{background-position:8px -126px;background-size:66%;height: .60rem ! important;width: .80rem ! important;}
+.icon5{background-position: 10px -150px;background-size:88%;}
+.img-wh{width: 49px;height: 49px;background-color: #007BFF;border-radius:49px;}                                                                                                                                                                                                                                                                    
+.css-size{color: #007BFF ! important;height: 38px;width: auto;font-size: inherit;text-align: center;margin:0 auto;}
+.css-sizet{color: #7e8287  ! important;height: 38px;width: auto;font-size: inherit;text-align: center;margin:0 auto;}
+
+
+
